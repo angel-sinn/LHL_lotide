@@ -8,7 +8,7 @@ const assertEqual = function (actual, expected) {
   }
 };
 
-// Test code
+// Test cases
 
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
