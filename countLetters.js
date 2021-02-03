@@ -32,3 +32,9 @@ const countLetters = function (string) {
 
 console.log(countLetters("angel"));
 console.log(countLetters("lighthouse in the house"));
+
+const result1 = countLetters("angel");
+const result2 = countLetters("lighthouse in the house");
+
+assertEqual(result1["n"], 1);
+assertEqual(result2["h"], 4);
