@@ -6,6 +6,8 @@ const assertEqual = function (actual, expected) {
   }
 };
 
+// Test cases
+
 const head = function (array) {
   return array[0];
 };
