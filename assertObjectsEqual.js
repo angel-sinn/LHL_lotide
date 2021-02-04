@@ -50,7 +50,6 @@ const eqObjects = function (object1, object2) {
 
 const assertObjectsEqual = function (actual, expected) {
   const inspect = require("util").inspect;
-  console.log(inspect);
 
   if (eqObjects(actual, expected)) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
