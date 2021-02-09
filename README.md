@@ -26,9 +26,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-- `head`: accepts an array and returns the first element
-- `middle`: accepts an array and returns the middle element or elements as an array
-- `tail`: accepts an array and returns the same array, but with the first element removed
 - `countLetters`: accepts a string and returns an object with key value pairs to denote each characterin the string, and the number of times it occurred in the string
 - `countOnly`: accepts an array of strings and return counts for a specific subset of those strings (the subset is identified by an object)
 - `eqArrays`: accepts two arrays and returns true or false based on if they are equal
@@ -36,6 +33,9 @@ The following functions are currently implemented:
 - `findKey`: accepts an object and a callback function: scans the object and returns the first key for which the callback function returns a truthy value
 - `findKeyByValue`: accepts an object and a value: scans the object and returns the first key which contains the given value
 - `flatten`: accepts an array where some elements may also be arrays and returns a single array with no inner arrays (a "flattened" version of the input array)
+- `head`: accepts an array and returns the first element
 - `map`: accepts an array and a function, and creates a new array with the results of calling the provided function on each element in the input array
+- `middle`: accepts an array and returns the middle element or elements as an array
+- `tail`: accepts an array and returns the same array, but with the first element removed
 - `takeUntil`: accepts an array and a callback function and runs each array element through the function, returning an array with all the items from the original array until the callback provided returns a truthy value
 - `without`: accepts a source array and an array of items to remove, and returns a subject of the source array, removing any elements that were included in the inputted array of items to remove
